@@ -1,0 +1,120 @@
+export const um = {
+  site: {
+    name: "Kalenda Yokulima",
+  },
+  nav: {
+    home: "Ondjo",
+    calendar: "Kalenda",
+    weather: "Otempo",
+    pests: "Olwali Novitukuta",
+    tips: "Omandunge Yokulima",
+  },
+  home: {
+    title: "Kalenda Yokulima Yovalimi Vangola",
+    subtitle: "Panga okulima nokukwata vyove nomandunge vopepito lyove",
+    viewCalendar: "Tala Kalenda",
+    learnMore: "Lilongisa Vimwe",
+  },
+  region: {
+    title: "Epito Lyove",
+    selectPrompt: "Nõla epito lyove okulikwata omandunge:",
+    select: "Nõla epito",
+    search: "Konga epito...",
+    noResults: "Kapwi epito lyamonika.",
+  },
+  calendar: {
+    title: "Kalenda Yokulima",
+    planting: "Okulima",
+    harvesting: "Okukwata",
+  },
+  crops: {
+    maize: "Epungu",
+    cassava: "Lomboa",
+    beans: "Olundungulu",
+    sorghum: "Omasangu",
+    cowpea: "Omakalavala",
+  },
+  cropInfo: {
+    info: "Omandunge",
+    planting: "Etambo Lyokulima",
+    harvesting: "Etambo Lyokukwata",
+    waterNeeds: "Ovava Yomeva",
+    soilType: "Olondunge Vyompheke",
+    growingTips: "Omandunge Yokulima",
+    waterLevel: {
+      low: "Yimwe",
+      medium: "Pokati",
+      high: "Yingi",
+    },
+    maize: {
+      plantingPeriod: "10 Kwavali - 15 Kwanhanha",
+      harvestingPeriod: "1 Kwakwenje - 10 Kwacisati",
+      soilType: "Ompheke yiwa, yinohumba",
+      tips: "Lima ombutu 2-3 cm vokule. Eka 75 cm pokati kolomila. Tula ofetiliza eci ovitambo vyakwata okongolo. Yova oviti vyakula vali.",
+    },
+    cassava: {
+      plantingPeriod: "1 Kwatatu - 30 Kwavali",
+      harvestingPeriod: "1 Kwanhanha - 31 Kwakwisende",
+      soilType: "Ompheke yinohumba",
+      tips: "Lima ovitambo volomboa 45° kocitumbo. Eka 1 metulu pokati kovitambo. Olomboa vitalela okwahema, pole vyandela omeva vali kokulima.",
+    },
+    beans: {
+      plantingPeriod: "15 Kwatatu - 20 Kwavali",
+      harvestingPeriod: "10 Kwanhanha - 15 Kwakwenje",
+      soilType: "Ompheke yinohumba",
+      tips: "Tula ombutu momeva uteke okulima. Lima 3-5 cm vokule. Olundungulu vyalinga ompheke yiwa, vyalingiwa okulima vali.",
+    },
+  },
+  weather: {
+    title: "Omandunge Votempo",
+    now: "Otempo Nda",
+    forecast: "Omandunge Votempo Vyoloneke 7",
+    humidity: "Ohumba",
+    wind: "Ofela Yomhepo",
+    precipitation: "Ombela",
+  },
+  pests: {
+    title: "Omandunge Volwali Novitukuta",
+    alert: {
+      title: "Omandunge Volwali Vyepungu",
+      description: "Olwali vyepungu vyamonika kepito lyaWambu. Tala ovitambo vyove vyepungu nokulikwata.",
+    },
+    severity: {
+      high: "Ocilikwa Cinene",
+      medium: "Ocilikwa Cimwe",
+      low: "Ocilikwa Cimwe Lika",
+    },
+    affectedCrops: "Ovitambo Vyalikwa:",
+    description: "Omandunge",
+    treatment: "Okuliyova",
+    learnMore: "Lilongisa vimwe vokuliyova",
+    fallArmyworm: {
+      name: "Olwali Vyepungu",
+      description: "Olwali vyimwe vyalya ovitalavoso vyepungu. Konga ovimela vyatuwa novitalavoso vyalya.",
+      treatment:
+        "Tula ovipangelo vyokuyova olwali uteke ongula ale kocitumbo. Kulunga ovitambo vyalikwa. Lima ovitambo vyokuyova olwali.",
+    },
+    cassavaMealybug: {
+      name: "Olwali Vyolomboa",
+      description: "Olwali vyatukuta ovitalavoso vyolomboa, vyalinga ovitalavoso vyalikwata nokukula kwaco.",
+      treatment: "Tula ovinyama vyalya olwali. Linga ovitambo vyolomboa vyakolela. Kulunga ovitambo vyalikwa.",
+    },
+    beanAphid: {
+      name: "Olwali Vyolundungulu",
+      description: "Olwali vyimwe vyalya ovitalavoso vyolundungulu, vyalinga ovitalavoso vyatukuta.",
+      treatment: "Tula omeva asapão. Tula ovinyama vyalya olwali. Lima ovitambo vyokuyova olwali.",
+    },
+  },
+  footer: {
+    description:
+      "Kalenda Yokulima yalinga ovalimi vangola omandunge yokulima, otempo, nolwali okukolisa okulima kwavo.",
+    quickLinks: "Omandunge Vyokupongolola",
+    resources: "Ovikwaciso",
+    about: "Omandunge Vyetu",
+    contact: "Likwata Letu",
+    help: "Ovikwaciso",
+    privacy: "Omandunge Vyokukwama",
+    terms: "Omandunge Vyokulingisa",
+    rights: "Ovindunge vyalikwama.",
+  },
+}
